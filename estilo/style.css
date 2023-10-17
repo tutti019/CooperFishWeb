@@ -35,6 +35,10 @@ nav a:hover {
     background-color: green;
 }
 
+main article p {
+    text-align: start;
+}
+
 footer {
     background-color: var(--cor4);
     color: #fff;
@@ -58,8 +62,12 @@ footer a:hover {
 
 .logo img {
     max-width: 80px; 
+    max-height: 80px;
 }
 
+.container {
+    display: flex;
+}
 
 .caixa-imagem {
     width: 300px;
@@ -78,4 +86,13 @@ footer a:hover {
     height: 100%;
     object-fit: cover;
 }
+.container {
+    clear: both;
+    background-color: var(--cor2);
+    border-radius: 20px;
+}
 
+.container img {
+    float: left;
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
